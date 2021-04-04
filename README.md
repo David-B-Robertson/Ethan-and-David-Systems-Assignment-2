@@ -1,6 +1,6 @@
 Project Information: This project incorporates a multi-threaded server with a client connection including a individual UI.  This UI contains several key parts of the both the server side and the connected local library.  The contents of the server's files and the local files passed through the command line are shown in the Client's UI.  The UI also contains a file preview to allow for the user to see the contents of any local file that they select before uploading it to the server.  The upload and download buttons work accordingly allowing you to transfer files from the server to the local directory and vice versa.  The Refresh button was implemented to allow for the user to have a consistent and updated list of both directories current files.
 
-![Alt Text](photo.jpg)
+![Alt Text](photo.png)
 
 Improvements: Improvements were made to increase the visual appeal of the UI allowing for a nicer colour for your eyes.  The Refresh button was added to allow for a consistent display of the servers file contents as well as the local directory's files.  The local file preview button and textArea was added to allow you to preview your local files before uploading them to the server.
 
