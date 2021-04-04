@@ -1,0 +1,42 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.text.Font?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="top_left" hgap="10" vgap="10">
+
+    <ListView fx:id="listViewServer"
+              GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+    <ListView fx:id="listViewClient"
+              GridPane.columnIndex="19" GridPane.rowIndex="1"/>
+
+    <Label text="Server"
+           GridPane.columnIndex="1" GridPane.rowIndex="2" prefWidth="194.0"/>
+
+    <Label text="Client"
+           GridPane.columnIndex="19" GridPane.rowIndex="2" prefWidth="194.0"/>
+
+    <Button
+            fx:id="refresh" text="Refresh" onAction="#refresh"
+            GridPane.columnIndex="10" GridPane.rowIndex="2" prefWidth="194.0"/>
+    <Button
+            fx:id="download" text="Download" onAction="#download"
+            GridPane.columnIndex="10" GridPane.rowIndex="3" prefWidth="194.0"/>
+    <Button
+            fx:id="upload" text="Upload" onAction="#upload"
+            GridPane.columnIndex="10" GridPane.rowIndex="4" prefWidth="194.0"/>
+    <Button
+            fx:id="preview" text="Preview Selected Local File" onAction="#preview"
+            GridPane.columnIndex="10" GridPane.rowIndex="0" prefWidth="194.0"/>
+    <TextArea
+        fx:id="previewArea"
+        GridPane.columnIndex="10" GridPane.rowIndex="1" prefWidth="194.0"/>
+
+</GridPane>
